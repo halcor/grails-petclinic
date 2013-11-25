@@ -11,7 +11,9 @@ class Owner extends Person
 	String address
 	String city
 	String telephone
+	/* comento CP
 	String CP
+	*/
 
 	static hasMany = [pets: Pet]
 
